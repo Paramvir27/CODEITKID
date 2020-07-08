@@ -1,0 +1,249 @@
+
+nav
+{
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+}
+
+nav h1
+{
+    font-weight: 500;
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 5px;
+    transition: letter-spacing 0.3s linear;
+}
+
+nav h1:hover
+{
+    letter-spacing: 8px;
+
+}
+
+nav h1 span
+{
+    font-weight: 700;
+    color:rgb(0, 173, 38);
+}
+
+nav li
+{
+    cursor: pointer;
+    color:grey;
+}
+
+nav li:hover
+{
+    color:rgb(0, 173, 38);
+    transform: scale(1.1);
+
+}
+
+nav .active
+{
+    font-weight: 600;
+    color: #000;
+}
+
+/* nav li span
+{
+    background-color: lightgreen;
+    display: inline-block;
+    height: 7px;
+    width: 12px;
+    border-radius: 20px;
+    position: relative;
+    
+    transform: translate(240%,180%);
+    text-align: center;
+    
+} */
+
+.main
+{
+  
+}
+
+.main h2
+{
+    font-weight: 400;
+    color:#666;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 3px;
+    transition: letter-spacing 0.3s linear;
+}
+.main h2:hover
+{
+    letter-spacing: 5px;
+}
+
+.mainImg
+{
+    height: 330px;
+    transition: transform 0.1s linear;
+}
+
+.mainImg:hover
+{
+    transform: scale(1.05);
+}
+
+
+.main .btn1
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background:linear-gradient(to left,lime,rgb(0, 173, 38));
+    background-size: 500%;
+    color:white;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border:0px;
+    box-shadow: 0px 0px 10px #CCC;
+    transition: transform 0.1s linear;
+    outline: none;
+
+}
+
+.main .btn2
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background:white;
+    background-size: 500%;
+    color:gray;
+    letter-spacing: 3px;
+    border:2px solid  grey;    
+    font-size: 15px;
+    font-weight: 500;
+    transition: transform 0.1s linear;
+    outline: none;
+
+}
+
+.main .btn1:hover
+{
+    animation: a1 4s linear infinite;
+    transform: scale(1.1);
+}
+
+.main .btn2:hover
+{
+    border:2px solid  rgb(0, 173, 38);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #CCC;
+
+
+    
+}
+
+@keyframes a1
+{
+    0%,100%
+    {
+        background-position: 0%;
+        box-shadow: 0px 0px 10px rgb(0, 173, 38);
+
+    }
+    50%
+    {
+        background-position: 100%;
+        box-shadow: 0px 0px 10px lime;
+    }
+}
+
+.headings
+{
+    font-weight: 400;
+    color:#666;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 3px;
+    transition: letter-spacing 0.3s linear;
+}
+
+.headings:hover
+{
+    letter-spacing: 5px;
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px #AAA;
+}
+
+.card
+{
+    transition: transform 0.1s linear;
+}
+
+.list
+        {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .list ul
+        {
+            list-style-type: none;
+            color:#666;
+            font-family: 'Lucida Sans Unicode';
+            position: relative;
+
+        }
+
+        .list ul li
+        {
+            border-left:4px rgb(0, 173, 38) solid;
+            margin: 15px;
+            position: relative;  
+            left:0px;
+            transition: left 0.3s;
+
+
+        }
+
+        .list ul li:hover
+        {
+            left:10px;
+            border:0px;
+            cursor: pointer;
+            font-weight: bold;
+            transform: scale(1.3);
+            color:white;
+        }
+
+        .list ul span
+        {
+            display: inline-block;     
+            position: relative;
+            padding: 20px;
+
+        }
+
+        .list ul li::before
+        {
+            content:"";
+            position: absolute;    
+            width: 0%;
+            height: 0%;
+            background-color: transparent;
+            transition: background 0.5s, width 0.3s;
+        }
+
+        .list ul li:hover::before
+        {
+            background: linear-gradient(to right,green,rgb(0, 206, 0),lime);
+            width: 100%;
+            height: 100%;
+        }
