@@ -370,6 +370,145 @@ nav .active
             border: 2px rgb(0, 179, 0) solid !important;
         }
 
+        .inputText
+        {
+            min-height: 40px;
+            border-radius: 5px;
+            border:1.5px #999 solid;
+            text-indent: 5px;
+            outline: 0px;
+            transition: transform 0.2s linear;
+
+        }
+
+        .inputText:hover
+        {
+            border:1.5px rgb(0, 170, 0) solid;
+        }
+
+        .inputText:focus
+        {
+            border:1.5px rgb(0, 170, 0) solid;
+            box-shadow: 0px 0px 5px rgb(0, 170, 0);
+            transform: scale(1.03);
+        }
+
+        select option
+        {
+            padding: 10px;
+            position: relative;
+        }
+
+        
+
+
+       
+
+        select option:hover
+        {
+            color:white;
+            font-weight: 600;
+            background-color:rgb(0, 170, 0) ;
+        }
+
+        .subBtn
+        {
+            width: 150px;
+            height: 50px;
+            border-radius: 8px;
+            background:linear-gradient(to left,lime,rgb(0, 173, 38));
+            background-size: 500%;
+            color:white;
+            letter-spacing: 3px;
+            text-transform:uppercase;
+            font-size: 15px;
+            font-weight: 500;
+            border:0px;
+            box-shadow: 0px 0px 10px #CCC;
+            transition: transform 0.1s linear;
+            outline: none;
+
+        }
+
+        .subBtn:focus
+        {
+            outline: none;
+        }
+
+        .subBtn:hover
+        {
+            box-shadow: 0px 0px 5px #555;
+            transform: scale(1.1);
+        }
+
+        .linedBcg2
+        {
+            background: #333;
+            background: linear-gradient(#111,rgb(27, 27, 27));
+            background-size: 20px 30px;
+        }
+
+        .linedBcg2 .card:hover
+        {
+            transform: scale(1.03);
+        }
+
+        .linedBcg2 .card .btn2
+        {
+            width: 150px;
+            height: 50px;
+            border-radius: 8px;
+            background:white;
+            background-size: 500%;
+            color:gray;
+            letter-spacing: 3px;
+            border:2px solid  grey;    
+            font-size: 15px;
+            font-weight: 500;
+            transition: transform 0.1s linear;
+            outline: none;
+
+        }
+
+        .linedBcg2 .card .btn2:hover
+        {
+            background-color: rgb(0, 170, 0);
+            color:white;
+            border:0px;
+            transform: scale(1.03);
+        }
+
+        .linedBcg2 .btn1
+        {
+            width: 150px;
+            height: 50px;
+            border-radius: 8px;
+            background:linear-gradient(to left,lime,rgb(0, 173, 38));
+            background-size: 500%;
+            color:white;
+            letter-spacing: 3px;
+            text-transform:uppercase;
+            font-size: 15px;
+            font-weight: 500;
+            border:0px;
+            box-shadow: 0px 0px 10px green;
+            transition: transform 0.1s linear;
+            outline: none;
+
+        }
+
+        .linedBcg2 .btn1:hover
+        {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px lime;
+
+        }
+
+
+
+
+
+
         
 
 
