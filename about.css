@@ -1,0 +1,52 @@
+.bigHeading
+{
+    font-size:45px !important;
+    letter-spacing: 1px;
+    transition: letter-spacing 0.2s linear;
+}
+
+.about h2
+{
+    font-family: calibri;
+    font-weight: bold;
+    color:#555;
+    letter-spacing: 1px;
+    transition: letter-spacing 0.2s linear;
+}
+
+.about h2:hover
+{
+    letter-spacing: 2px;
+
+}
+
+.bigHeading:hover
+{
+    letter-spacing: 2px;
+}
+
+.aboutpic
+{
+    transform: scale(0.8); 
+    height:450px;
+}
+
+.aboutpic:hover
+{
+    transition: transform 0.2s linear;
+    transform: scale(0.82);
+}
+
+
+@media screen and (max-width:576px)
+{
+    .aboutpic
+    {
+        height:270px;
+    }
+}
+
+.first
+{
+    font-weight: bold;
+}
