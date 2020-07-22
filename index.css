@@ -541,10 +541,10 @@ nav .btn1
 
         }
 
-        .linedBcg2 .btn1:hover
+        .shad:hover
         {
             transform: scale(1.1);
-            box-shadow: 0px 0px 10px lime;
+            box-shadow: 0px 0px 20px lime !important;
 
         }
 
