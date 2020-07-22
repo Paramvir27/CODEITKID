@@ -1,0 +1,38 @@
+.blog h2
+{
+    font-size: 24px;
+    color: #555;
+}
+
+.btn2
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background:white;
+    background-size: 500%;
+    color:gray;
+    letter-spacing: 3px;
+    border:1.5px solid  grey;    
+    font-size: 15px;
+    font-weight: 500;
+    transition: transform 0.1s linear;
+    outline: none;
+
+}
+
+
+ .btn2:hover
+{
+    border:2px solid  rgb(0, 173, 38);
+    transform: scale(1.04);
+    box-shadow: 0px 0px 10px #CCC;
+
+
+    
+}
+
+.btn2:focus
+{
+    outline: none;
+}
